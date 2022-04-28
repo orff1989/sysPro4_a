@@ -14,16 +14,10 @@ namespace coup {
                 Player(game, Name) {}
 
 
-        void block(Duke duke) {
+        void block(Player p);
 
-        }
+        void foreign_aid();
 
-        void foreign_aid() {
-
-        }
-
-        void steal(Player contessa) {
-
-        }
+        void steal(Player p);
     };
 }

@@ -13,24 +13,32 @@ namespace coup {
         string _name;
         int _coins;
         Game _game;
+        string _role;
 
     public:
         Player(Game game, string Name) {
-            _name = string(Name);
+            _name = Name;
             _game = game;
+            _coins=0;
+            _game.addToGame(Name);
+        }
+        Player(Game game, string Name, string role) {
+            _name = Name;
+            _game = game;
+            _role=role;
+            _coins=0;
+            _game.addToGame(Name);
         }
 
-        string getName() {
-            return _name;
-        }
+        string getName();
 
-        void income(){
-            _coins++;
-        }
+        void income();
 
-        int coins(){
-            return _coins;
-        }
+        int coins();
+
+        string role();
+
+        void coup(Player p);
 
     };
 }

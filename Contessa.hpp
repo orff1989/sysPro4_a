@@ -16,12 +16,8 @@ namespace coup {
                 Player(game, Name) {}
 
 
-        void block(Player assassin) {
+        void block(Player assassin);
 
-        }
-
-        void foreign_aid() {
-
-        }
+        void foreign_aid();
     };
 }

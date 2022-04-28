@@ -14,12 +14,8 @@ namespace coup {
         Assassin(Game game, string Name) :
                 Player(game, Name) {}
 
-        void foreign_aid() {
+        void foreign_aid();
+        void coup(Player duke);
 
-        }
-
-        void coup(Player duke) {
-
-        }
     };
 }

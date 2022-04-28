@@ -13,13 +13,8 @@ namespace coup {
         Duke(Game game, string Name) :
         Player(game, Name) {}
 
+        void block(Player assassin);
 
-        void block(Player assassin) {
-
-        }
-
-        void tax() {
-
-        }
+        void tax();
     };
 }

@@ -1,3 +1,3 @@
-/home/or/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir
-/home/or/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/or/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir
+C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/rebuild_cache.dir

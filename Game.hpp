@@ -4,15 +4,15 @@
 #include<vector>
 #include<algorithm>
 #include<iterator>
-#include "Player.hpp"
+
 
 using namespace std;
 
 namespace coup {
 
     class Game{
-    private:
-        vector<string> _vec;
+
+        std::vector<int> _players;
         int _turn;
         int _winner;
 
@@ -20,22 +20,17 @@ namespace coup {
         Game(){
             _turn=0;
             _winner= -1;
+            _players=vector<int>(5);
         }
 
-        vector<string> players(){
-            return vector<string>(_vec);
-        };
+        vector<string> players();
 
-        string turn(){
-            if (_vec.size()>0) {
-                return "";
-            }
-            return "";
-        }
+        string turn();
 
-        void addToGame(string player){
-            _vec.push_back(string(player));
-        }
+        void addToGame(string& player);
 
+        void showPlayers();
+
+        string winner();
     };
 }
