@@ -86,21 +86,21 @@ TEST_CASE("Good input") {
 }
 
 TEST_CASE("Bad input"){
-//    Game g1{};
-//    Duke duke{g1, "or1"};
-//    Assassin assassin{g1, "or2"};
-//    Ambassador ambassador{g1, "or3"};
-//    Captain captain{g1, "or4"};
-//    Contessa contessa{g1, "or5"};
-//
-//    CHECK_THROWS(assassin.income());
-//    CHECK_THROWS(ambassador.income());
-//    CHECK_THROWS(captain.income());
-//
-//    duke.tax();
-//    CHECK_THROWS(duke.tax());
-//    CHECK_THROWS(duke.coup(contessa));
-//
-//    CHECK_THROWS(g1.winner());
-//
+    Game g1{};
+    Duke duke{g1, "or1"};
+    Assassin assassin{g1, "or2"};
+    Ambassador ambassador{g1, "or3"};
+    Captain captain{g1, "or4"};
+    Contessa contessa{g1, "or5"};
+
+    CHECK_THROWS(assassin.income());
+    CHECK_THROWS(ambassador.income());
+    CHECK_THROWS(captain.income());
+
+    duke.tax();
+    CHECK_THROWS(duke.tax());
+    CHECK_THROWS(duke.coup(contessa));
+
+    CHECK_THROWS(g1.winner());
+
 }
