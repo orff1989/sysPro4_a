@@ -10,12 +10,11 @@ namespace coup {
     class Ambassador : public Player{
 
     public:
-        Ambassador(Game game, string Name) :
-                Player(game, Name) {}
+        Ambassador(Game& game, string Name) :
+                Player(&game, Name) {}
 
-        void transfer(Player duke, Player assassin);
-        void foreign_aid();
+        void transfer(Player& duke, Player& assassin);
 
-        void block();
+        string role() override;
     };
 }

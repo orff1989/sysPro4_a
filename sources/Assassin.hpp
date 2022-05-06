@@ -11,11 +11,9 @@ namespace coup {
     class Assassin : public Player{
 
     public:
-        Assassin(Game game, string Name) :
-                Player(game, Name) {}
+        Assassin(Game& game, string Name) :
+                Player(&game, Name) {}
 
-        void foreign_aid();
-        void coup(Player duke);
-
+        string role() override;
     };
 }

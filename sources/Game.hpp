@@ -5,32 +5,44 @@
 #include<algorithm>
 #include<iterator>
 
-
 using namespace std;
 
 namespace coup {
+    class Player;
 
     class Game{
 
-        std::vector<int> _players;
-        int _turn;
+        std::vector<Player*> _players;
+        size_t _turn;
         int _winner;
 
     public:
         Game(){
             _turn=0;
             _winner= -1;
-            _players=vector<int>(5);
         }
 
         vector<string> players();
 
         string turn();
 
-        void addToGame(string& player);
+        void addToGame(Player* player);
+
+        void next_turn();
 
         void showPlayers();
 
         string winner();
+
+        void setWinner();
+
+        Player* findPlayer(string str);
+
+        int findDeadPlayer(string str);
+
+        void block(Player& blockBy, Player& blocked);
+
+
+
     };
 }

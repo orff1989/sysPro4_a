@@ -10,11 +10,14 @@ namespace coup {
     class Duke : public Player{
 
     public:
-        Duke(Game game, string Name) :
-        Player(game, Name) {}
-
-        void block(Player assassin);
+        Duke(Game& game, string Name) :
+        Player(&game, Name) {}
 
         void tax();
+
+        string role() override;
+
+
+
     };
 }
