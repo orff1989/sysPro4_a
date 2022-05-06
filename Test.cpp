@@ -59,30 +59,30 @@ TEST_CASE("Good input") {
     CHECK(captain.coins()==4);
     CHECK(duke.coins()==7);
 
-//    contessa.income();
-//    CHECK_NOTHROW(duke.tax());
-//    CHECK(duke.coins()==10);
-//
-//    CHECK_NOTHROW(assassin.coup(contessa));
-//    CHECK(assassin.coins()==1);
-//    ambassador.foreign_aid();
-//    captain.foreign_aid();
-//    CHECK(ambassador.coins()==8);
-//    CHECK(captain.coins()==6);
-//    CHECK_NOTHROW(duke.coup(captain));
-//
-//    assassin.foreign_aid();
-//    ambassador.income();
-//    duke.tax();
-//
-//    CHECK_NOTHROW(assassin.coup(ambassador));
-//    duke.tax();
-//    assassin.foreign_aid();
-//    duke.tax();
-//    assassin.foreign_aid();
-//    duke.tax();
-//    CHECK_NOTHROW(assassin.coup(duke));
-//    CHECK(g1.winner()=="or2");
+    contessa.income();
+    CHECK_NOTHROW(duke.tax());
+    CHECK(duke.coins()==10);
+
+    CHECK_NOTHROW(assassin.coup(contessa));
+    CHECK(assassin.coins()==1);
+    ambassador.foreign_aid();
+    captain.foreign_aid();
+    CHECK(ambassador.coins()==8);
+    CHECK(captain.coins()==6);
+    CHECK_NOTHROW(duke.coup(captain));
+
+    assassin.foreign_aid();
+    ambassador.income();
+    duke.tax();
+
+    CHECK_NOTHROW(assassin.coup(ambassador));
+    duke.tax();
+    assassin.foreign_aid();
+    duke.tax();
+    assassin.foreign_aid();
+    duke.tax();
+    CHECK_NOTHROW(assassin.coup(duke));
+    CHECK(g1.winner()=="or2");
 }
 
 TEST_CASE("Bad input"){
