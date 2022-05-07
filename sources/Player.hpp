@@ -26,8 +26,11 @@ namespace coup {
             _name = Name;
             _game = game;
             _coins=0;
-            _game->addToGame( this);
             alive= true;
+
+            if (_game->playersSize()>=6){ throw "too much players";}
+            if (_game->get_Turn()>0){throw "the game already started";}
+            _game->addToGame( this);
         }
 
         void set_lastCommand(string c){
@@ -46,15 +49,13 @@ namespace coup {
 
         void income();
 
-        int coins();
+        int coins() const;
 
         void foreign_aid();
 
         void coup(Player& p);
 
         void block(Player& p);
-
-        bool equels(Player& p);
 
         virtual string role();
 

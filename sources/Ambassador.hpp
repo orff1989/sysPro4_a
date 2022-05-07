@@ -13,7 +13,7 @@ namespace coup {
         Ambassador(Game& game, string Name) :
                 Player(&game, Name) {}
 
-        void transfer(Player& duke, Player& assassin);
+        void transfer(Player& p1, Player& p2);
 
         string role() override;
     };

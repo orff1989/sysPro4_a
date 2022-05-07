@@ -4,23 +4,28 @@ project(sysPro4_a)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
+include_directories(sources)
 
 add_executable(sysPro4_a
-        Ambassador.cpp
-        Ambassador.hpp
-        Assassin.cpp
-        Assassin.hpp
-        Captain.cpp
-        Captain.hpp
-        Contessa.cpp
-        Contessa.hpp
-        Demo.cpp
+        sources/Ambassador.cpp
+        sources/Ambassador.hpp
+        sources/Assassin.cpp
+        sources/Assassin.hpp
+        sources/Captain.cpp
+        sources/Captain.hpp
+        sources/Contessa.cpp
+        sources/Contessa.hpp
+        sources/Demo.cpp
+        sources/Duke.cpp
+        sources/Duke.hpp
+        sources/Game.cpp
+        sources/Game.hpp
+        sources/Player.cpp
+        sources/Player.hpp
         doctest.h
-        Duke.cpp
-        Duke.hpp
-        Game.cpp
-        Game.hpp
-        Player.cpp
-        Player.hpp
+        StudentTest1.cpp
+        StudentTest2.cpp
+        StudentTest3.cpp
         Test.cpp
-        TestCounter.cpp)
+        TestCounter.cpp
+        TestRunner.cpp)

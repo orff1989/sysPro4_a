@@ -14,6 +14,10 @@ namespace coup {
 
         std::vector<Player*> _players;
         size_t _turn;
+    public:
+
+
+    private:
         int _winner;
 
     public:
@@ -26,6 +30,8 @@ namespace coup {
 
         string turn();
 
+        size_t get_Turn() const;
+
         void addToGame(Player* player);
 
         void next_turn();
@@ -36,13 +42,11 @@ namespace coup {
 
         void setWinner();
 
-        Player* findPlayer(string str);
+        Player* findPlayer(const string& str);
 
-        int findDeadPlayer(string str);
+        void block(Player& blockBy, Player& p);
 
-        void block(Player& blockBy, Player& blocked);
-
-
+        size_t playersSize();
 
     };
 }

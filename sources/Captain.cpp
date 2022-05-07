@@ -7,7 +7,12 @@ namespace coup{
             if (p.coins()>=2){
                 p.decreasCoins(2);
                 _coins+=2;
-            } else{
+            }
+            else if (p.coins()==1){
+                p.decreasCoins(1);
+                _coins+=1;
+            }
+            else{
                 throw "this player has not enough money";
             }
             _game->next_turn();

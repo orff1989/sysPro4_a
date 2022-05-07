@@ -8,22 +8,27 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Ambassador.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Ambassador.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Assassin.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Assassin.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Captain.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Captain.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Contessa.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Contessa.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Demo.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Demo.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Duke.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Duke.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Game.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Game.cpp.obj"
-  "C:/Users/orff1/CLionProjects/sysPro4_a/Player.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Player.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/StudentTest1.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/StudentTest1.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/StudentTest2.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/StudentTest2.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/StudentTest3.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/StudentTest3.cpp.obj"
   "C:/Users/orff1/CLionProjects/sysPro4_a/Test.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/Test.cpp.obj"
   "C:/Users/orff1/CLionProjects/sysPro4_a/TestCounter.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/TestCounter.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/TestRunner.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/TestRunner.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Ambassador.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Ambassador.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Assassin.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Assassin.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Captain.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Captain.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Contessa.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Contessa.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Demo.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Demo.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Duke.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Duke.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Game.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Game.cpp.obj"
+  "C:/Users/orff1/CLionProjects/sysPro4_a/sources/Player.cpp" "C:/Users/orff1/CLionProjects/sysPro4_a/cmake-build-debug/CMakeFiles/sysPro4_a.dir/sources/Player.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  "../sources"
   )
 
 # The set of dependency files which are needed:
