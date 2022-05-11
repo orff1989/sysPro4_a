@@ -28,7 +28,7 @@ namespace coup {
             _coins=0;
             alive= true;
 
-            if (_game->playersSize()>=6){ throw "too much players";}
+            if (_game->playersSize()>=6){ throw std::invalid_argument("too much players");}
             if (_game->get_Turn()>0){throw "the game already started";}
             _game->addToGame( this);
         }
